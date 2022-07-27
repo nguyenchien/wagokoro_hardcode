@@ -1,0 +1,192 @@
+section {
+  overflow-x: hidden; }
+
+.clr {
+  clear: both;
+  display: table;
+  float: none; }
+
+._10 {
+  height: 10px; }
+
+._20 {
+  height: 20px; }
+
+._30 {
+  height: 30px; }
+
+._40 {
+  height: 40px; }
+
+._50 {
+  height: 50px; }
+
+._60 {
+  height: 60px; }
+
+._70 {
+  height: 70px; }
+
+.main-color {
+  color: #64BEBE !important; }
+
+.sub-color {
+  color: #5AB4B4 !important; }
+
+[class*='content-'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 40px); }
+  @media screen and (max-width: 767px) {
+    [class*='content-'] {
+      max-width: calc(100% - 30px); } }
+
+.content-sm {
+  width: 630px; }
+
+.content-mm {
+  width: 820px; }
+
+.content-md {
+  width: 880px; }
+
+.content-ml {
+  width: 1080px; }
+
+.content-lg {
+  width: 1210px; }
+
+.banner-section {
+  margin-bottom: 0; }
+
+/* START */
+.bg-gray {
+  background-color: #EDEDED;
+  padding: 60px 0; }
+
+/* company-name */
+.tt-company-name {
+  margin-bottom: 60px; }
+  .tt-company-name .title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: serif; }
+    .tt-company-name .title .main {
+      font-size: 40px;
+      font-weight: 500;
+      letter-spacing: 5px;
+      text-shadow: 0.01em 0.01em 0 #000; }
+    .tt-company-name .title .sub {
+      font-size: 16px;
+      margin: 20px 0 0 0; }
+  @media (max-width: 1200px) {
+    .tt-company-name .title {
+      margin-bottom: 35px; }
+      .tt-company-name .title .main {
+        font-size: 35px; } }
+  @media (max-width: 767px) {
+    .tt-company-name .title .main {
+      font-size: 28px; }
+    .tt-company-name .title .sub {
+      margin-top: 10px;
+      font-size: 13px; } }
+
+.table-border-top {
+  width: 100%;
+  font-family: serif; }
+  .table-border-top tr {
+    border-top: solid 2px #000; }
+    @media screen and (max-width: 767px) {
+      .table-border-top tr {
+        border-top-width: 1px; } }
+    .table-border-top tr td:first-child {
+      width: 160px; }
+    .table-border-top tr td {
+      padding: 30px 10px;
+      vertical-align: top;
+      font-size: 15px;
+      line-height: 1.7; }
+      .table-border-top tr td p {
+        margin: 0;
+        line-height: inherit; }
+      .table-border-top tr td p + p {
+        margin-top: 20px;
+        font-size: inherit; }
+  .table-border-top.padding-md tr td {
+    padding: 10px; }
+  @media (max-width: 767px) {
+    .table-border-top tr td:first-child {
+      width: 100px; }
+    .table-border-top tr td {
+      padding: 20px 10px;
+      font-size: 12px; } }
+
+.text-shadow {
+  text-shadow: 0.007rem 0.007rem 0 #000; }
+
+.tt-company-access-map {
+  display: block;
+  width: 100%;
+  height: 300px;
+  margin: 30px 0; }
+  @media screen and (max-width: 767px) {
+    .tt-company-access-map {
+      margin: 20px 0; } }
+
+@media screen and (max-width: 767px) {
+  .tt-company-access .mt-70 {
+    margin-top: 45px; } }
+
+.tt-company-access .table-border-top tr:first-child {
+  border: none; }
+
+/**/
+.history-table {
+  width: 100%;
+  margin-bottom: 50px; }
+  .history-table tr td {
+    font-size: 13px;
+    font-family: sans-serif;
+    border-left: solid 1px #A7A7A7;
+    vertical-align: top;
+    color: #555;
+    line-height: 1.8;
+    padding-left: 30px;
+    padding-right: 0; }
+  .history-table tr td:first-child {
+    width: 125px;
+    text-align: right;
+    padding-left: 10px;
+    padding-right: 15px; }
+  @media (max-width: 767px) {
+    .history-table tr td {
+      font-size: 12px;
+      padding-left: 10px; }
+    .history-table tr td:first-child {
+      width: 100px;
+      padding-right: 10px; } }
+
+.tt-company-history .wrap-social {
+  margin-bottom: 0; }
+
+@media (min-width: 1200px) {
+  .bg-gray {
+    padding: 150px 0 100px 0; }
+  .tt-company-name,
+  .tt-company-access {
+    margin-bottom: 130px; }
+  .tt-company-access-map {
+    max-width: 550px;
+    max-height: 280px;
+    margin: 0 auto 50px auto; }
+  .tt-company-name .table-border-top {
+    max-width: 560px; }
+  .tt-company-access .table-border-top {
+    max-width: 770px; }
+  .tt-company-access .content-sm .table-border-top {
+    max-width: 560px; }
+  .table-border-top {
+    margin: auto; }
+  .history-table {
+    margin-bottom: 80px; } }

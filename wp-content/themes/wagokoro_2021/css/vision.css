@@ -1,0 +1,254 @@
+section {
+  overflow-x: hidden; }
+
+.clr {
+  clear: both;
+  display: table;
+  float: none; }
+
+._10 {
+  height: 10px; }
+
+._20 {
+  height: 20px; }
+
+._30 {
+  height: 30px; }
+
+._40 {
+  height: 40px; }
+
+._50 {
+  height: 50px; }
+
+._60 {
+  height: 60px; }
+
+._70 {
+  height: 70px; }
+
+.main-color {
+  color: #64BEBE !important; }
+
+.sub-color {
+  color: #5AB4B4 !important; }
+
+[class*='content-'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 40px); }
+  @media screen and (max-width: 767px) {
+    [class*='content-'] {
+      max-width: calc(100% - 30px); } }
+
+.content-sm {
+  width: 630px; }
+
+.content-mm {
+  width: 820px; }
+
+.content-md {
+  width: 880px; }
+
+.content-ml {
+  width: 1080px; }
+
+.content-lg {
+  width: 1210px; }
+
+@font-face {
+  font-family: "A P-OTF KinreiGyosho StdN";
+  src: url("https://www.wagokoro.co.jp/wp-content/themes/wagokoro_2021/fonts/A-OTF-KinreiGyoshoStdN-Reg.ttf") format("truetype");
+  font-style: normal; }
+
+.sec-mg-general {
+  margin-bottom: 115px; }
+
+.box-relative {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px; }
+  .box-relative .group-img {
+    position: absolute;
+    left: 0;
+    top: -60px; }
+    .box-relative .group-img .img-lg {
+      position: relative;
+      margin-bottom: 45px; }
+    .box-relative .group-img.left-img .img-lg {
+      left: 60px; }
+    .box-relative .group-img.right-img {
+      left: inherit;
+      right: 0; }
+      .box-relative .group-img.right-img .img-lg {
+        left: -20%; }
+      .box-relative .group-img.right-img .img-sm {
+        margin-left: auto;
+        display: block; }
+  .box-relative .box-content-info {
+    background-color: #ededed;
+    padding-top: 20px;
+    width: 750px;
+    margin-left: auto; }
+    .box-relative .box-content-info .group-content-info {
+      padding: 70px 30px 50px 120px;
+      box-sizing: border-box; }
+      .box-relative .box-content-info .group-content-info.padding-vision {
+        padding-right: 30px; }
+      .box-relative .box-content-info .group-content-info.padding-mission {
+        padding: 50px 100px; }
+  .box-relative.box-relative-r .right-img {
+    order: 2; }
+  .box-relative.box-relative-r .box-content-info {
+    order: 1;
+    margin-right: auto;
+    margin-left: 0; }
+
+.sec-message {
+  padding-top: 30px;
+  background-color: #ededed; }
+
+.box-content-message .group-col-message {
+  display: flex;
+  padding: 75px 0 60px 0;
+  box-sizing: border-box; }
+  .box-content-message .group-col-message .img-message {
+    margin-right: 90px; }
+  .box-content-message .group-col-message .signature {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: "A P-OTF KinreiGyosho StdN", serif; }
+
+.tt-info {
+  font-size: 36px;
+  line-height: 1.3;
+  margin-bottom: 60px;
+  font-family: serif;
+  text-shadow: 0.01em 0.01em 0 #000; }
+
+.des-top {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  font-family: serif;
+  text-shadow: 0.01em 0.01em 0 #000; }
+
+.des-bottom {
+  font-size: 15px;
+  line-height: 1.8;
+  font-family: serif; }
+
+.group-line .line-double {
+  border-top: 1px solid #800d0d;
+  margin-bottom: 1px; }
+
+@media (max-width: 767px) {
+  .sec-mg-general {
+    margin-bottom: 60px; }
+  .box-relative {
+    padding: 0;
+    display: inherit;
+    position: inherit; }
+    .box-relative .group-img {
+      position: inherit;
+      top: 0;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .box-relative .group-img .img-lg {
+        margin-bottom: 0;
+        width: 100%; }
+      .box-relative .group-img.left-img {
+        left: inherit; }
+        .box-relative .group-img.left-img .img-lg {
+          left: 0; }
+        .box-relative .group-img.left-img .img-sm {
+          left: inherit;
+          width: 80%; }
+      .box-relative .group-img.right-img {
+        right: inherit; }
+        .box-relative .group-img.right-img .img-lg {
+          left: 0; }
+        .box-relative .group-img.right-img .img-sm {
+          right: 0;
+          width: 80%;
+          margin-right: auto; }
+    .box-relative .box-content-info {
+      width: 100%; }
+      .box-relative .box-content-info .group-content-info {
+        padding: 10px !important; }
+  .box-content-message .group-col-message {
+    display: inherit;
+    padding: 20px 0; }
+    .box-content-message .group-col-message .img-message {
+      margin: 0 0 20px 0;
+      width: 100%; }
+    .box-content-message .group-col-message .signature {
+      margin-top: 30px;
+      font-size: 15px; }
+  .sec-business-bt .box-bsn {
+    padding: 30px 0; }
+  .sec-business-bt .group-bsn-top {
+    margin-bottom: 60px; }
+    .sec-business-bt .group-bsn-top .list-col-bsn {
+      flex-direction: column; }
+      .sec-business-bt .group-bsn-top .list-col-bsn .item-col-bsn.col-bsn-left {
+        flex: inherit;
+        margin-right: 0; }
+      .sec-business-bt .group-bsn-top .list-col-bsn .item-col-bsn.col-bsn-right {
+        flex: inherit; }
+      .sec-business-bt .group-bsn-top .list-col-bsn .more-list-bsn {
+        flex-wrap: wrap;
+        margin: 0;
+        flex-direction: column; }
+        .sec-business-bt .group-bsn-top .list-col-bsn .more-list-bsn .item-bsn-info {
+          margin: 0 0 60px 0;
+          width: 100%; }
+  .sec-business-bt .group-bsn-bottom .list-col-oem {
+    margin-left: 0;
+    flex-direction: column; }
+    .sec-business-bt .group-bsn-bottom .list-col-oem .item-col-oem {
+      margin: 0;
+      width: 100%; }
+      .sec-business-bt .group-bsn-bottom .list-col-oem .item-col-oem.item-col-oem-right .list-link-page {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -10px; }
+        .sec-business-bt .group-bsn-bottom .list-col-oem .item-col-oem.item-col-oem-right .list-link-page .item-link-page {
+          margin: 0 0 10px 10px;
+          width: calc(100% * (1/2) - 10px); }
+  .button-bsn .link-to {
+    padding: 15px 5px;
+    font-style: 13px; }
+  .title-bsn-info {
+    margin-bottom: 40px;
+    padding-bottom: 20px; }
+  .sub-title-bsn {
+    margin-bottom: 15px; }
+  .des-bsn {
+    margin-bottom: 30px; }
+  .tt-info {
+    font-size: 22px;
+    margin-bottom: 20px;
+    line-height: 1.2; }
+  .des-top {
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 20px; }
+  .des-bottom {
+    font-size: 14px;
+    line-height: 1.5; } }
+
+@media (min-width: 1200px) {
+  .mission-section .wrap-main-title {
+    margin-bottom: 0;
+    padding-left: 200px; }
+    .mission-section .wrap-main-title .main-title {
+      margin: 0 0 10px 0; }
+    .mission-section .wrap-main-title .sub-title {
+      text-align: left;
+      margin-left: -13px; } }

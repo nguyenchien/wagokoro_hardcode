@@ -1,0 +1,4 @@
+Sitemap: https://www.wagokoro.co.jp/sitemap.xml
+User-agent: *
+
+

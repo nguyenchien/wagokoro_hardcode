@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "A-OTF Ryumin Pr5";
+  src: url("../fonts/A-OTF-RyuminPr5-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Ryumin Pr5";
+  src: url("../fonts/A-OTF-RyuminPr5-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Ryumin Pr5";
+  src: url("../fonts/A-OTF-RyuminPr5-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Ryumin Pr5";
+  src: url("../fonts/A-OTF-RyuminPr5-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Gothic BBB Pr5";
+  src: url("../fonts/A-OTF-GothicBBBPr5-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shuei ShogoMincho Sen H";
+  src: url("../fonts/A-OTF-ShueiShogoMSen-Hv.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.text-vertical {
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+}
+
+.banner-section {
+  margin-bottom: 50px;
+}
+
+.wrap-banner {
+  position: relative;
+  box-shadow: 0 8px 8px -2px #8e8e8e;
+}
+
+@media screen and (min-width: 1600px) {
+  .wrap-banner img {
+    width: 100%;
+    height: 660px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.page-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: serif;
+  padding: 5px 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 140px;
+  height: 35px;
+}
+
+.page-title.wt {
+  color: #fff;
+  background-image: url(../images/pattern-white.svg);
+}
+
+.page-title.bt {
+  background-image: url(../images/pattern-black.svg);
+}
+
+.wrap-main-title {
+  margin-bottom: 30px;
+}
+
+.wrap-main-title .main-title {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  font-size: 15px;
+  font-family: "A-OTF Ryumin Pr5 M-KL";
+  letter-spacing: 2px;
+  position: relative;
+  margin: 0 auto 10px auto;
+}
+
+.wrap-main-title .main-title:before, .wrap-main-title .main-title:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1px;
+  width: 20px;
+  background-color: #800D0D;
+}
+
+.wrap-main-title .main-title:before {
+  left: -40px;
+}
+
+.wrap-main-title .main-title:after {
+  right: -40px;
+}
+
+.wrap-main-title .sub-title {
+  color: #B2B2B2;
+  font-size: 14px;
+  font-family: "Bodoni 72", serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*==Title general IR==*/
+.wrap-title-ir {
+  margin-bottom: 80px;
+  text-align: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.wrap-title-ir .title-hr {
+  color: #676767;
+}
+
+.wrap-title-ir .title-hr .text-ir-en {
+  font-size: 26px;
+  margin-bottom: 20px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.wrap-title-ir .title-hr .text-ir-en:after, .wrap-title-ir .title-hr .text-ir-en:before {
+  content: "";
+  width: 20px;
+  height: 3px;
+  top: 40%;
+  position: absolute;
+  border-top: 1px solid #800d0d;
+  border-bottom: 1px solid #800d0d;
+}
+
+.wrap-title-ir .title-hr .text-ir-en:after {
+  left: -30px;
+}
+
+.wrap-title-ir .title-hr .text-ir-en:before {
+  right: -30px;
+}
+
+.wrap-title-ir .title-hr .text-ir-ja {
+  font-size: 17px;
+}
+
+@media (max-width: 767px) {
+  .row {
+    padding: 0 10px;
+  }
+  /*==Title general IR==*/
+  .wrap-title-ir {
+    margin-bottom: 40px;
+  }
+  .wrap-title-ir .title-hr .text-ir-en {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .wrap-title-ir .title-hr .text-ir-ja {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 750px) {
+  .wrap-main-title {
+    margin-bottom: 70px;
+  }
+  .wrap-main-title .main-title {
+    font-size: 18px;
+  }
+  .wrap-main-title .main-title:before, .wrap-main-title .main-title:after {
+    width: 30px;
+  }
+  .wrap-main-title .main-title:before {
+    left: -60px;
+  }
+  .wrap-main-title .main-title:after {
+    right: -60px;
+  }
+  .page-title {
+    font-size: 26px;
+    width: 230px;
+    height: 56px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrap-main-title.tal {
+    margin-bottom: 0;
+    padding-left: 200px;
+  }
+  .wrap-main-title.tal .main-title {
+    margin: 0 0 10px 0;
+  }
+  .wrap-main-title.tal .sub-title {
+    text-align: left;
+    margin-left: -13px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1100px;
+  }
+}

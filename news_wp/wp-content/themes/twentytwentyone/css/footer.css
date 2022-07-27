@@ -1,0 +1,177 @@
+section {
+  overflow-x: hidden; }
+
+.clr {
+  clear: both;
+  display: table;
+  float: none; }
+
+._10 {
+  height: 10px; }
+
+._20 {
+  height: 20px; }
+
+._30 {
+  height: 30px; }
+
+._40 {
+  height: 40px; }
+
+._50 {
+  height: 50px; }
+
+._60 {
+  height: 60px; }
+
+._70 {
+  height: 70px; }
+
+.main-color {
+  color: #64BEBE !important; }
+
+.sub-color {
+  color: #5AB4B4 !important; }
+
+[class*='content-'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 40px); }
+  @media screen and (max-width: 767px) {
+    [class*='content-'] {
+      max-width: calc(100% - 30px); } }
+
+.content-sm {
+  width: 630px; }
+
+.content-mm {
+  width: 820px; }
+
+.content-md {
+  width: 880px; }
+
+.content-ml {
+  width: 1080px; }
+
+.content-lg {
+  width: 1210px; }
+
+@font-face {
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  src: url("./fonts/KozukaGothicPr6N-R.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.wrap-social {
+  margin-bottom: 90px; }
+  .wrap-social .txt {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Helvetica Neue", serif;
+    margin-bottom: 30px;
+    text-align: center; }
+  .wrap-social .list-social {
+    justify-content: center; }
+    .wrap-social .list-social li {
+      margin: 0 15px; }
+      .wrap-social .list-social li a {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: #000;
+        cursor: pointer; }
+        .wrap-social .list-social li a img {
+          width: 26px;
+          margin: auto; }
+
+/*===Footer===*/
+footer {
+  background-color: #E1DFDB;
+  font-size: 13px;
+  font-family: "Kozuka Gothic Pr6N", sans-serif;
+  font-weight: normal;
+  padding-top: 30px; }
+  footer .wrap-ft .list-ft {
+    margin-bottom: 20px; }
+    footer .wrap-ft .list-ft h4 {
+      margin-bottom: 12px;
+      font-size: 14px;
+      line-height: 1.3; }
+    footer .wrap-ft .list-ft strong {
+      font-weight: normal; }
+    footer .wrap-ft .list-ft ul {
+      margin-bottom: 10px; }
+    footer .wrap-ft .list-ft li {
+      display: inline-block;
+      line-height: 1.4;
+      margin-bottom: 12px; }
+      footer .wrap-ft .list-ft li a {
+        color: #000;
+        font-size: 13px; }
+      footer .wrap-ft .list-ft li:not(:last-child) {
+        border-right: 1px solid #000;
+        padding-right: 10px;
+        margin-right: 10px; }
+      footer .wrap-ft .list-ft li.noborder {
+        padding: 0;
+        margin: 0;
+        border: none; }
+  footer .bottom-ft {
+    text-align: center;
+    margin-bottom: 30px; }
+    footer .bottom-ft a {
+      color: #000;
+      font-size: 13px;
+      display: inline-block;
+      line-height: 1.4; }
+  footer .copyright {
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    background-color: #000; }
+  footer strong {
+    font-weight: bold; }
+
+@media (min-width: 1200px) {
+  footer {
+    padding-top: 60px; }
+    footer .wrap-ft .list-ft {
+      clear: both;
+      overflow: hidden; }
+      footer .wrap-ft .list-ft h4 {
+        width: 160px;
+        float: left;
+        margin-bottom: 0; }
+      footer .wrap-ft .list-ft ul {
+        float: left;
+        margin-bottom: 15px; }
+        footer .wrap-ft .list-ft ul li {
+          float: left;
+          margin-bottom: 0;
+          border-right: none !important; }
+          footer .wrap-ft .list-ft ul li a {
+            line-height: 1.6; }
+          footer .wrap-ft .list-ft ul li.clear {
+            clear: both; }
+          footer .wrap-ft .list-ft ul li.mt15 {
+            margin-top: 15px; }
+        footer .wrap-ft .list-ft ul:not(:first-of-type) {
+          margin-left: 160px; }
+      footer .wrap-ft .list-ft.kimono ul, footer .wrap-ft .list-ft.oem ul, footer .wrap-ft .list-ft .list-ft-imayo {
+        margin-left: 160px; }
+      footer .wrap-ft .list-ft.kimono ul {
+        margin-top: -15px; }
+      footer .wrap-ft .list-ft .list-ft-imayo {
+        margin-bottom: 0; }
+    footer .bottom-ft {
+      margin-top: 70px;
+      margin-bottom: 50px; }
+    footer .copyright {
+      font-size: 13px;
+      padding: 15px; } }
